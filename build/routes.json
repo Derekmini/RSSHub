@@ -28171,40 +28171,112 @@
         ],
         "location": "earlyaccess.ts"
       },
-      "/:journal/latest/vol/:sortType?": {
-        "path": [
-          "/:journal/latest/vol/:sortType?",
-          "/journal/:journal/:sortType?"
-        ],
-        "name": "Unknown",
-        "maintainers": [],
-        "location": "journal.ts"
-      },
       "/journal/:journal/:sortType?": {
         "path": [
-          "/:journal/latest/vol/:sortType?",
-          "/journal/:journal/:sortType?"
+          "/journal/:journal/:sortType?",
+          "/:journal/latest/vol/:sortType?"
         ],
-        "name": "Unknown",
-        "maintainers": [],
+        "categories": [
+          "journal"
+        ],
+        "examples": "/ieee/journal/6287639",
+        "parameters": {
+          "journal": "Issue code, the number of the `isnumber` in the URL",
+          "sortType": "Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": true
+        },
+        "name": "Current Issue",
+        "maintainers": [
+          "Derekmini"
+        ],
         "location": "journal.ts"
       },
-      "/:journal/latest/date/:sortType?": {
+      "/:journal/latest/vol/:sortType?": {
         "path": [
-          "/:journal/latest/date/:sortType?",
-          "/journal/:journal/recent/:sortType?"
+          "/journal/:journal/:sortType?",
+          "/:journal/latest/vol/:sortType?"
         ],
-        "name": "Unknown",
-        "maintainers": [],
-        "location": "recent.ts"
+        "categories": [
+          "journal"
+        ],
+        "examples": "/ieee/journal/6287639",
+        "parameters": {
+          "journal": "Issue code, the number of the `isnumber` in the URL",
+          "sortType": "Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": true
+        },
+        "name": "Current Issue",
+        "maintainers": [
+          "Derekmini"
+        ],
+        "location": "journal.ts"
       },
       "/journal/:journal/recent/:sortType?": {
         "path": [
-          "/:journal/latest/date/:sortType?",
-          "/journal/:journal/recent/:sortType?"
+          "/journal/:journal/recent/:sortType?",
+          "/:journal/latest/date/:sortType?"
         ],
-        "name": "Unknown",
-        "maintainers": [],
+        "categories": [
+          "journal"
+        ],
+        "example": "/ieee/journal/6287639/recent",
+        "parameters": {
+          "journal": "Issue code, the number of the `isnumber` in the URL",
+          "sortType": "Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": true
+        },
+        "name": "Recent Articles",
+        "maintainers": [
+          "Derekmini"
+        ],
+        "location": "recent.ts"
+      },
+      "/:journal/latest/date/:sortType?": {
+        "path": [
+          "/journal/:journal/recent/:sortType?",
+          "/:journal/latest/date/:sortType?"
+        ],
+        "categories": [
+          "journal"
+        ],
+        "example": "/ieee/journal/6287639/recent",
+        "parameters": {
+          "journal": "Issue code, the number of the `isnumber` in the URL",
+          "sortType": "Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": true
+        },
+        "name": "Recent Articles",
+        "maintainers": [
+          "Derekmini"
+        ],
         "location": "recent.ts"
       }
     },

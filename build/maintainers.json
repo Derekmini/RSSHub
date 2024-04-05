@@ -2840,10 +2840,18 @@
   "/ieee/journal/:journal/earlyaccess/:sortType?": [
     "5upernova-heng"
   ],
-  "/ieee/:journal/latest/vol/:sortType?": [],
-  "/ieee/journal/:journal/:sortType?": [],
-  "/ieee/:journal/latest/date/:sortType?": [],
-  "/ieee/journal/:journal/recent/:sortType?": [],
+  "/ieee/journal/:journal/:sortType?": [
+    "Derekmini"
+  ],
+  "/ieee/:journal/latest/vol/:sortType?": [
+    "Derekmini"
+  ],
+  "/ieee/journal/:journal/recent/:sortType?": [
+    "Derekmini"
+  ],
+  "/ieee/:journal/latest/date/:sortType?": [
+    "Derekmini"
+  ],
   "/ieee-security/security-privacy": [
     "ZeddYu"
   ],
