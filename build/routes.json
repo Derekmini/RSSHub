@@ -28179,7 +28179,7 @@
         "categories": [
           "journal"
         ],
-        "examples": "/ieee/journal/6287639",
+        "example": "/ieee/journal/6287639",
         "parameters": {
           "journal": "Issue code, the number of the `isnumber` in the URL",
           "sortType": "Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`"
@@ -28206,7 +28206,7 @@
         "categories": [
           "journal"
         ],
-        "examples": "/ieee/journal/6287639",
+        "example": "/ieee/journal/6287639",
         "parameters": {
           "journal": "Issue code, the number of the `isnumber` in the URL",
           "sortType": "Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`"
