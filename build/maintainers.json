@@ -2846,12 +2846,6 @@
   "/ieee/:journal/latest/vol/:sortType?": [
     "Derekmini"
   ],
-  "/ieee/journal/:journal/recent/:sortType?": [
-    "Derekmini"
-  ],
-  "/ieee/:journal/latest/date/:sortType?": [
-    "Derekmini"
-  ],
   "/ieee-security/security-privacy": [
     "ZeddYu"
   ],
