@@ -2843,9 +2843,6 @@
   "/ieee/journal/:journal/:sortType?": [
     "Derekmini"
   ],
-  "/ieee/:journal/latest/vol/:sortType?": [
-    "Derekmini"
-  ],
   "/ieee-security/security-privacy": [
     "ZeddYu"
   ],

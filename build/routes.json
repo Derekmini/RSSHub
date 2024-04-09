@@ -28172,41 +28172,11 @@
         "location": "earlyaccess.ts"
       },
       "/journal/:journal/:sortType?": {
-        "path": [
-          "/journal/:journal/:sortType?",
-          "/:journal/latest/vol/:sortType?"
-        ],
+        "path": "/journal/:journal/:sortType?",
         "categories": [
           "journal"
         ],
-        "example": "/ieee/journal/6287639",
-        "parameters": {
-          "journal": "Issue code, the number of the `isnumber` in the URL",
-          "sortType": "Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`"
-        },
-        "features": {
-          "requireConfig": false,
-          "requirePuppeteer": false,
-          "antiCrawler": false,
-          "supportBT": false,
-          "supportPodcast": false,
-          "supportScihub": true
-        },
-        "name": "Current Issue",
-        "maintainers": [
-          "Derekmini"
-        ],
-        "location": "journal.ts"
-      },
-      "/:journal/latest/vol/:sortType?": {
-        "path": [
-          "/journal/:journal/:sortType?",
-          "/:journal/latest/vol/:sortType?"
-        ],
-        "categories": [
-          "journal"
-        ],
-        "example": "/ieee/journal/6287639",
+        "example": "/ieee/journal/8782710",
         "parameters": {
           "journal": "Issue code, the number of the `isnumber` in the URL",
           "sortType": "Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`"
