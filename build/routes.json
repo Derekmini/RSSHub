@@ -28154,8 +28154,8 @@
         ],
         "example": "/ieee/journal/5306045/earlyaccess",
         "parameters": {
-          "journal": "Issue code, the number of the `isnumber` in the URL",
-          "sortType": "Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`"
+          "journal": "Issue code, the number of the `isnumber` in the link",
+          "sortType": "Sort Type, default: `vol-only-seq`, the part of the link after `sortType`"
         },
         "features": {
           "requireConfig": false,
@@ -28178,8 +28178,8 @@
         ],
         "example": "/ieee/journal/8782710",
         "parameters": {
-          "journal": "Issue code, the number of the `isnumber` in the URL",
-          "sortType": "Sort Type, default: `vol-only-seq`, the part of the URL after `sortType`"
+          "journal": "Issue code, the number of the `isnumber` in the link",
+          "sortType": "Sort Type, default: `vol-only-seq`, the part of the link after `sortType`"
         },
         "features": {
           "requireConfig": false,
