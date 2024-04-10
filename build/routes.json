@@ -28147,6 +28147,31 @@
   },
   "ieee": {
     "routes": {
+      "/author/:aid/:sortType/:count?": {
+        "path": "/author/:aid/:sortType/:count?",
+        "categories": [
+          "journal"
+        ],
+        "example": "/ieee/author/8782710",
+        "parameters": {
+          "aid": "Author ID",
+          "sortType": "Sort Type of papers",
+          "count": "Number of papers to show"
+        },
+        "features": {
+          "requireConfig": false,
+          "requirePuppeteer": false,
+          "antiCrawler": false,
+          "supportBT": false,
+          "supportPodcast": false,
+          "supportScihub": true
+        },
+        "name": "Author",
+        "maintainers": [
+          "Derekmini"
+        ],
+        "location": "author.ts"
+      },
       "/journal/:journal/earlyaccess/:sortType?": {
         "path": "/journal/:journal/earlyaccess/:sortType?",
         "categories": [
