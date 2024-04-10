@@ -28152,7 +28152,7 @@
         "categories": [
           "journal"
         ],
-        "example": "/ieee/author/8782710",
+        "example": "/ieee/author/37281702200",
         "parameters": {
           "aid": "Author ID",
           "sortType": "Sort Type of papers",
