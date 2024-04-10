@@ -28167,7 +28167,8 @@
         },
         "name": "Early Access Journal",
         "maintainers": [
-          "5upernova-heng"
+          "5upernova-heng",
+          "Derekmini"
         ],
         "location": "earlyaccess.ts"
       },

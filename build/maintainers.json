@@ -2838,7 +2838,8 @@
     "Mingxia1"
   ],
   "/ieee/journal/:journal/earlyaccess/:sortType?": [
-    "5upernova-heng"
+    "5upernova-heng",
+    "Derekmini"
   ],
   "/ieee/journal/:journal/:sortType?": [
     "Derekmini"
