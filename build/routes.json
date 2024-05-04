@@ -28147,8 +28147,8 @@
   },
   "ieee": {
     "routes": {
-      "/author/:aid/:sortType/:count?": {
-        "path": "/author/:aid/:sortType/:count?",
+      "/author/:aid/:sortType?/:count?": {
+        "path": "/author/:aid/:sortType?/:count?",
         "categories": [
           "journal"
         ],

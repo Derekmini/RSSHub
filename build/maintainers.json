@@ -2837,7 +2837,7 @@
   "/idolypride/news": [
     "Mingxia1"
   ],
-  "/ieee/author/:aid/:sortType/:count?": [
+  "/ieee/author/:aid/:sortType?/:count?": [
     "Derekmini"
   ],
   "/ieee/journal/:journal/earlyaccess/:sortType?": [
